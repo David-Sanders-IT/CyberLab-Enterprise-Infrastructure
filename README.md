@@ -57,50 +57,6 @@ This repository is designed to demonstrate practical skills through:
 
 # Completed Projects
 
-# Featured Project Screenshots
-
-## Project 01 – Windows Server Foundation
-
-<img src="Project%2001%20-%20Windows%20Server%20Foundation/Screenshots/01_Server_Manager_Ready.png" width="900" alt="Windows Server foundation">
-
-**Figure 1.** Windows Server 2022 configured and prepared for enterprise role deployment.
-
----
-
-## Project 02 – Active Directory Services
-
-<img src="Project%2002%20-%20Active%20Directory%20Services/Screenshots/13_First_Domain_Controller.png" width="900" alt="First domain controller">
-
-**Figure 2.** `SFG-DC01` operating as the first Domain Controller for `corp.cyberlab.local`.
-
----
-
-## Project 03 – Active Directory Identity Administration
-
-<img src="Project%2003%20-%20Active%20Directory%20Identity%20Administration/Screenshots/03_Enterprise_OU_Structure.png" width="900" alt="Enterprise Active Directory OU structure">
-
-**Figure 3.** Enterprise Organizational Unit structure supporting departments, security groups, computers, privileged accounts, service accounts, and disabled identities.
-
----
-
-## Project 04 – Identity Lifecycle Management
-
-<img src="Project%2004%20-%20Identity%20Lifecycle%20Management/Screenshots/08_Mover_Access_Updated.png" width="900" alt="IAM mover access update">
-
-**Figure 4.** Role-based access updated after a departmental transfer, with Finance access removed and Operations access assigned.
-
----
-
-## Project 05 – Identity-Based Resource Access
-
-<img src="Project%2005%20-%20Identity-Based%20Resource%20Access/Screenshots/10_Finance_Final_ACL.png" width="900" alt="Finance NTFS permissions">
-
-**Figure 5.** Hardened Finance NTFS access-control list using the `DL_Finance_Modify` Domain Local permission group.
-
-## Project 01 – Windows Server Foundation
-
-[View Project 01](Project%2001%20-%20Windows%20Server%20Foundation/README.md)
-
 Established the Windows Server foundation for the CyberLab environment.
 
 ### Work Completed
