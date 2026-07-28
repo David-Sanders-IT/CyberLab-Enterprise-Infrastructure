@@ -8,7 +8,21 @@
 ![Security](https://img.shields.io/badge/Security%2B-Certified-red)
 ![Linux](https://img.shields.io/badge/LPI_Linux_Essentials-Certified-FCC624)
 ![Status](https://img.shields.io/badge/Status-Active_Development-orange)
- 
+ ## Environment Status
+
+✅ 7 Enterprise Infrastructure Projects Completed
+
+🖥️ Windows Server 2022
+
+🏢 Active Directory Domain Services
+
+💻 Windows 11 Enterprise
+
+☁️ Microsoft Entra ID
+
+🔐 Identity & Access Management
+
+➡️ Next: Okta Identity Cloud
 ---
  
 ## Overview
@@ -42,16 +56,15 @@ This repository is designed to demonstrate practical skills through:
 | ✅ | Project 04 – Identity Lifecycle Management |
 | ✅ | Project 05 – Identity-Based Resource Access |
 | ✅ | Project 06 – Windows 11 Enterprise Client |
-| ⏳ | Project 07 – Microsoft Entra ID |
-| ⏳ | Project 08 – Group Policy Administration |
-| ⏳ | Project 09 – DNS Administration |
-| ⏳ | Project 10 – DHCP Administration |
-| ⏳ | Project 11 – PowerShell IAM Administration |
-| ⏳ | Project 12 – Identity Governance |
-| ⏳ | Project 13 – Conditional Access |
-| ⏳ | Project 14 – IAM Automation |
+| ✅ | Project 07 – Microsoft Entra ID Identity Administration |
+| ⏳ | Project 08 – Okta Identity Cloud |
+| ⏳ | Project 09 – Hybrid Identity |
+| ⏳ | Project 10 – Group Policy Administration |
+| ⏳ | Project 11 – DNS Administration |
+| ⏳ | Project 12 – DHCP Administration |
+| ⏳ | Project 13 – PowerShell IAM Administration |
+| ⏳ | Project 14 – Identity Governance |
 | ⏳ | Project 15 – Enterprise IT Operations & IAM Support |
- 
 ---
  
 # Completed Projects
@@ -355,34 +368,88 @@ Authorized Access / Access Denied
 > **Validation status:** Complete. The authorization model designed in Project 05 has been validated end-to-end from a domain-joined Windows 11 client.
  
 ---
+
+## Project 07 – Microsoft Entra ID Identity Administration
+
+[View Project 07](Project%2007%20-%20Microsoft%20Entra%20ID/README.md)
+
+Extended the CyberLab Enterprise Infrastructure environment into cloud identity administration using Microsoft Entra ID.
+
+### Work Completed
+
+- Deployed Microsoft Entra ID tenant
+- Created enterprise cloud users
+- Created security groups
+- Implemented Role-Based Access Control (RBAC)
+- Assigned built-in administrative roles
+- Created Administrative Units
+- Configured authentication methods
+- Added GitHub Enterprise Cloud application
+- Assigned enterprise users to SaaS applications
+- Reviewed Single Sign-On (SSO)
+- Reviewed SAML configuration
+- Reviewed Identity Secure Score
+- Documented Microsoft Entra identity administration
+
+### Identity Architecture
+
+```text
+Enterprise Users
+        ↓
+Security Groups
+        ↓
+Administrative Roles
+        ↓
+Authentication Methods
+        ↓
+Enterprise Applications
+        ↓
+Single Sign-On
+```
+
+### Key Skills
+
+- Microsoft Entra ID
+- Cloud Identity Administration
+- RBAC
+- Administrative Units
+- Authentication Methods
+- Enterprise Applications
+- Single Sign-On
+- SAML
+- SaaS Identity Management
  
 # Enterprise Architecture Progression
  
 ```text
 Windows Server Deployment
-          ↓
+        ↓
 Active Directory Domain Services
-          ↓
-Enterprise OU and Identity Design
-          ↓
-Joiner–Mover–Leaver Operations
-          ↓
+        ↓
+Enterprise Identity Administration
+        ↓
+Joiner–Mover–Leaver
+        ↓
 Role-Based Access Control
-          ↓
+        ↓
 AGDLP Authorization
-          ↓
-SMB and NTFS Resource Access
-          ↓
-Windows Client Validation
-          ↓
-Microsoft Entra ID and Hybrid Identity
-          ↓
-Group Policy and Centralized Management
-          ↓
+        ↓
+Windows 11 Enterprise Client
+        ↓
+Microsoft Entra ID
+        ↓
+Okta Identity Cloud
+        ↓
+Hybrid Identity
+        ↓
+Group Policy
+        ↓
+DNS
+        ↓
+DHCP
+        ↓
 PowerShell Automation
-          ↓
-Okta
-          ↓
+        ↓
 Identity Governance
 ```
  
@@ -403,15 +470,18 @@ Identity Governance
 - VMware Workstation Pro
 - Windows PowerShell fundamentals
 - Git and GitHub
+- Microsoft Entra ID
+- Enterprise Applications
+- Authentication Methods
+- Administrative Units
 ## Planned
  
-- Microsoft Entra ID
-- Microsoft Graph
+- Okta Identity Cloud
+- Hybrid Identity
 - Group Policy Management
 - DNS Administration
 - DHCP
 - PowerShell IAM automation
-- Okta
 - Conditional Access
 - Identity Governance
 - Access Reviews
@@ -437,6 +507,14 @@ Identity Governance
 - Disabled-account retention
 - Ticket-based IAM workflows
 - End-to-end access validation
+- Microsoft Entra ID
+- Cloud Identity Administration
+- Administrative Units
+- Enterprise Applications
+- Authentication Methods
+- Single Sign-On
+- SAML
+- SaaS Identity Management
 ## Windows Server & Client Administration
  
 - Windows Server deployment
@@ -566,37 +644,46 @@ CyberLab-Enterprise-Infrastructure/
 │   ├── Future_Improvements.md
 │   ├── Project_Timeline.md
 │   └── Screenshots/
+│
+├── Project 07 - Microsoft Entra ID/
+│   ├── README.md
+│   ├── Architecture.md
+│   ├── Deployment_Notes.md
+│   ├── Troubleshooting_Log.md
+│   ├── Skills_Demonstrated.md
+│   ├── Lessons_Learned.md
+│   ├── Future_Improvements.md
+│   ├── Project_Timeline.md
+│   └── Screenshots/
 ```
  
 ---
  
 # Current Focus
  
-The current focus is expanding the environment into Microsoft Entra ID and cloud identity, followed by centralized Windows management and core network services.
- 
+The current focus is expanding the CyberLab Enterprise Infrastructure environment into multi-platform Identity & Access Management.
+
 Planned next steps include:
- 
-- Configure Microsoft Entra ID and connect the on-premises domain
-- Explore hybrid identity concepts and initial cloud identity synchronization
-- Configure Group Policy for centralized administration
-- Map department drives based on security-group membership via Group Policy
-- Deploy and configure DNS administration workflows
-- Deploy and configure DHCP for dynamic addressing
-- Begin PowerShell IAM automation
+
+- Deploy Okta Identity Cloud
+- Build Hybrid Identity
+- Configure Group Policy
+- Configure DNS
+- Configure DHCP
+- Automate identity administration with PowerShell
 ---
  
 # Roadmap
  
 | Project | Focus |
 |---|---|
-| Project 07 | Microsoft Entra ID |
-| Project 08 | Group Policy Administration |
-| Project 09 | DNS Administration |
-| Project 10 | DHCP Administration |
-| Project 11 | PowerShell IAM Administration |
-| Project 12 | Identity Governance |
-| Project 13 | Conditional Access |
-| Project 14 | IAM Automation |
+| Project 08 | Okta Identity Cloud |
+| Project 09 | Hybrid Identity |
+| Project 10 | Group Policy Administration |
+| Project 11 | DNS Administration |
+| Project 12 | DHCP Administration |
+| Project 13 | PowerShell IAM Administration |
+| Project 14 | Identity Governance |
 | Project 15 | Enterprise IT Operations & IAM Support |
  
 See the complete [project roadmap](ROADMAP.md).
