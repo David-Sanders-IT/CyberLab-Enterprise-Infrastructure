@@ -558,17 +558,14 @@ CyberLab-Enterprise-Infrastructure/
 │
 └── Project 06 - Windows 11 Enterprise Client/
     ├── README.md
-    ├── Architecture.md
-    ├── Deployment_Notes.md
-    ├── Domain_Join_Workflow.md
-    ├── Access_Validation.md
-    ├── Access_Denied_Testing.md
-    ├── Troubleshooting_Log.md
-    ├── Skills_Demonstrated.md
-    ├── Lessons_Learned.md
-    ├── Future_Improvements.md
-    ├── Project_Timeline.md
-    └── Screenshots/
+│   ├── Architecture.md
+│   ├── Deployment_Notes.md
+│   ├── Troubleshooting_Log.md
+│   ├── Skills_Demonstrated.md
+│   ├── Lessons_Learned.md
+│   ├── Future_Improvements.md
+│   ├── Project_Timeline.md
+│   └── Screenshots/
 ```
  
 ---
