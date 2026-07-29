@@ -7,10 +7,10 @@
 ![IAM](https://img.shields.io/badge/Identity_%26_Access_Management-Portfolio-2E8B57)
 ![Security](https://img.shields.io/badge/Security%2B-Certified-red)
 ![Linux](https://img.shields.io/badge/LPI_Linux_Essentials-Certified-FCC624)
-![Status](https://img.shields.io/badge/Status-Active_Development-orange)
+![Projects](https://img.shields.io/badge/Projects-9%20Completed-success)
  ## Environment Status
 
-✅ 7 Enterprise Infrastructure Projects Completed
+✅ 9 Enterprise Infrastructure Projects Completed
 
 🖥️ Windows Server 2022
 
@@ -31,7 +31,7 @@ CyberLab Enterprise Infrastructure is a hands-on technical portfolio designed to
  
 The environment documents the design, deployment, administration, security, and troubleshooting of a Microsoft Active Directory domain.
  
-The projects progress from basic server deployment into enterprise identity administration, Joiner–Mover–Leaver operations, Role-Based Access Control, AGDLP authorization, SMB file sharing, NTFS permission management, and domain-joined Windows client validation.
+The projects progress from foundational Windows Server deployment through enterprise identity administration, Joiner–Mover–Leaver operations, Role-Based Access Control (RBAC), AGDLP authorization, Windows 11 client validation, Microsoft Entra ID, Hybrid Identity planning, and enterprise Group Policy administration.
  
 This repository is designed to demonstrate practical skills through:
  
@@ -58,12 +58,12 @@ This repository is designed to demonstrate practical skills through:
 | ✅ | Project 06 – Windows 11 Enterprise Client |
 | ✅ | Project 07 – Microsoft Entra ID Identity Administration |
 | ⏳ | Project 08 – Okta Identity Cloud |
-| ⏳ | Project 09 – Hybrid Identity |
-| ⏳ | Project 10 – Group Policy Administration |
+| ✅ | Project 09 – Hybrid Identity Planning & Architecture |
+| ✅ | Project 10 – Enterprise Group Policy Administration |
 | ⏳ | Project 11 – DNS Administration |
 | ⏳ | Project 12 – DHCP Administration |
 | ⏳ | Project 13 – PowerShell IAM Administration |
-| ⏳ | Project 14 – Identity Governance |
+| ⏳ | Project 14 – Identity Governance & Conditional Access |
 | ⏳ | Project 15 – Enterprise IT Operations & IAM Support |
 ---
  
@@ -418,6 +418,69 @@ Single Sign-On
 - Single Sign-On
 - SAML
 - SaaS Identity Management
+
+## Project 09 – Hybrid Identity Planning & Architecture
+
+[View Project 09](Project%2009%20-%20Hybrid%20Identity%20Planning%20%26%20Architecture/README.md)
+
+Designed and documented a hybrid identity architecture integrating on-premises Active Directory with Microsoft Entra ID using Microsoft's recommended planning methodology.
+
+### Work Completed
+
+- Reviewed Microsoft Entra Cloud Sync
+- Reviewed Microsoft Entra Connect Sync
+- Compared synchronization technologies
+- Compared authentication methods
+- Evaluated deployment requirements
+- Reviewed Cloud Sync agents
+- Reviewed IdFix
+- Selected Cloud Sync architecture
+- Documented synchronization planning
+- Documented deployment prerequisites
+
+### Key Skills
+
+- Hybrid Identity
+- Microsoft Entra Cloud Sync
+- Microsoft Entra Connect
+- Password Hash Synchronization
+- Pass-through Authentication
+- Federation concepts
+- Identity synchronization
+- Enterprise architecture
+
+## Project 10 – Enterprise Group Policy Administration
+
+[View Project 10](Project%2010%20-%20Enterprise%20Group%20Policy%20Administration/README.md)
+
+Designed, deployed, validated, and troubleshot enterprise Group Policy Objects to centrally manage Windows security and workstation configuration.
+
+### Work Completed
+
+- Created enterprise Group Policy Objects
+- Configured Password Policy
+- Configured Account Lockout Policy
+- Configured Legal Logon Banner
+- Configured Machine Inactivity Timeout
+- Disabled AutoPlay
+- Configured Microsoft Defender
+- Configured Windows Defender Firewall
+- Linked GPOs to Organizational Units
+- Validated deployment with gpupdate
+- Verified policies using gpresult
+- Verified Resultant Set of Policy (RSoP)
+- Troubleshot GPO deployment
+
+### Key Skills
+
+- Group Policy Management
+- Group Policy Objects
+- Windows Security
+- Windows Administration
+- gpupdate
+- gpresult
+- RSoP
+- Enterprise troubleshooting
  
 # Enterprise Architecture Progression
  
@@ -438,11 +501,11 @@ Windows 11 Enterprise Client
         ↓
 Microsoft Entra ID
         ↓
-Okta Identity Cloud
-        ↓
 Hybrid Identity
         ↓
-Group Policy
+Enterprise Group Policy
+        ↓
+Okta Identity Cloud
         ↓
 DNS
         ↓
@@ -474,11 +537,16 @@ Identity Governance
 - Enterprise Applications
 - Authentication Methods
 - Administrative Units
+- Microsoft Entra Cloud Sync
+- Group Policy Management
+- Group Policy Objects
+- Resultant Set of Policy (RSoP)
+- gpupdate
+- gpresult
+  
 ## Planned
  
 - Okta Identity Cloud
-- Hybrid Identity
-- Group Policy Management
 - DNS Administration
 - DHCP
 - PowerShell IAM automation
@@ -515,6 +583,31 @@ Identity Governance
 - Single Sign-On
 - SAML
 - SaaS Identity Management
+
+## Group Policy
+
+- Group Policy Management
+- Group Policy Objects
+- Group Policy deployment
+- Group Policy validation
+- Group Policy troubleshooting
+- Security baselines
+- Windows Defender administration
+- Windows Firewall administration
+- gpupdate
+- gpresult
+- Resultant Set of Policy (RSoP)
+
+## Hybrid Identity
+
+- Hybrid Identity planning
+- Microsoft Entra Cloud Sync
+- Microsoft Entra Connect
+- Password Hash Synchronization
+- Pass-through Authentication
+- Federation concepts
+- Identity synchronization
+  
 ## Windows Server & Client Administration
  
 - Windows Server deployment
@@ -655,13 +748,35 @@ CyberLab-Enterprise-Infrastructure/
 │   ├── Future_Improvements.md
 │   ├── Project_Timeline.md
 │   └── Screenshots/
+|
+├── Project 09 - Hybrid Identity Planning & Architecture/
+│   ├── README.md
+│   ├── Architecture.md
+│   ├── Deployment_Notes.md
+│   ├── Troubleshooting_Log.md
+│   ├── Skills_Demonstrated.md
+│   ├── Lessons_Learned.md
+│   ├── Future_Improvements.md
+│   ├── Project_Timeline.md
+│   └── Screenshots/
+
+├── Project 10 - Enterprise Group Policy Administration/
+│   ├── README.md
+│   ├── Architecture.md
+│   ├── Deployment_Notes.md
+│   ├── Troubleshooting_Log.md
+│   ├── Skills_Demonstrated.md
+│   ├── Lessons_Learned.md
+│   ├── Future_Improvements.md
+│   ├── Project_Timeline.md
+│   └── Screenshots/
 ```
  
 ---
  
 # Current Focus
  
-The current focus is expanding the CyberLab Enterprise Infrastructure environment into multi-platform Identity & Access Management.
+The current focus is expanding CyberLab into multi-platform Identity & Access Management by adding Okta Identity Cloud while continuing to build enterprise Windows infrastructure, cloud identity, and security automation skills.
 
 Planned next steps include:
 
@@ -678,12 +793,10 @@ Planned next steps include:
 | Project | Focus |
 |---|---|
 | Project 08 | Okta Identity Cloud |
-| Project 09 | Hybrid Identity |
-| Project 10 | Group Policy Administration |
 | Project 11 | DNS Administration |
 | Project 12 | DHCP Administration |
 | Project 13 | PowerShell IAM Administration |
-| Project 14 | Identity Governance |
+| Project 14 | Identity Governance & Conditional Access |
 | Project 15 | Enterprise IT Operations & IAM Support |
  
 See the complete [project roadmap](ROADMAP.md).
