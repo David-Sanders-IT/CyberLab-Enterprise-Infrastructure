@@ -22,7 +22,7 @@
 
 🔐 Okta Identity Cloud
 
-🔐 Identity & Access Management
+🔑 Identity & Access Management
 
 ➡️ Next: DNS Administration
 ---
