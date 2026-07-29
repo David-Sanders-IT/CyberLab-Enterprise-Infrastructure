@@ -20,6 +20,8 @@
 
 ☁️ Microsoft Entra ID
 
+🔐 Okta Identity Cloud
+
 🔐 Identity & Access Management
 
 ➡️ Next: DNS Administration
