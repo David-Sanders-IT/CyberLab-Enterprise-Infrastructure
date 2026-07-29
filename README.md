@@ -12,11 +12,15 @@
 
 ✅ 10 Enterprise Infrastructure Projects Completed
 
+### Infrastructure
+
 🖥️ Windows Server 2022
 
 🏢 Active Directory Domain Services
 
 💻 Windows 11 Enterprise
+
+### Identity Platforms
 
 ☁️ Microsoft Entra ID
 
