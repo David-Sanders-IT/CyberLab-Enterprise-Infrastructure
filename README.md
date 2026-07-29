@@ -7,10 +7,10 @@
 ![IAM](https://img.shields.io/badge/Identity_%26_Access_Management-Portfolio-2E8B57)
 ![Security](https://img.shields.io/badge/Security%2B-Certified-red)
 ![Linux](https://img.shields.io/badge/LPI_Linux_Essentials-Certified-FCC624)
-![Projects](https://img.shields.io/badge/Projects-9%20Completed-success)
+![Projects](https://img.shields.io/badge/Projects-10%20Completed-success)
  ## Environment Status
 
-✅ 9 Enterprise Infrastructure Projects Completed
+✅ 10 Enterprise Infrastructure Projects Completed
 
 🖥️ Windows Server 2022
 
@@ -22,7 +22,7 @@
 
 🔐 Identity & Access Management
 
-➡️ Next: Okta Identity Cloud
+➡️ Next: DNS Administration
 ---
  
 ## Overview
@@ -57,7 +57,7 @@ This repository is designed to demonstrate practical skills through:
 | ✅ | Project 05 – Identity-Based Resource Access |
 | ✅ | Project 06 – Windows 11 Enterprise Client |
 | ✅ | Project 07 – Microsoft Entra ID Identity Administration |
-| ⏳ | Project 08 – Okta Identity Cloud |
+| ✅ | Project 08 – Okta Identity Cloud Administration |
 | ✅ | Project 09 – Hybrid Identity Planning & Architecture |
 | ✅ | Project 10 – Enterprise Group Policy Administration |
 | ⏳ | Project 11 – DNS Administration |
@@ -419,6 +419,54 @@ Single Sign-On
 - SAML
 - SaaS Identity Management
 
+## Project 08 – Okta Identity Cloud Administration
+
+[View Project 08](Project%2008%20-%20Okta%20Identity%20Cloud/README.md)
+
+Implemented an enterprise Identity and Access Management (IAM) environment using Okta Identity Cloud.
+
+### Work Completed
+
+- Deployed an Okta Identity Cloud tenant
+- Created enterprise users and departmental groups
+- Implemented Role-Based Access Control (RBAC)
+- Configured enterprise authentication methods
+- Integrated Microsoft 365
+- Integrated Slack
+- Integrated GitHub Enterprise Cloud
+- Integrated Zoom
+- Integrated Atlassian Jira Cloud
+- Created internal enterprise applications
+- Assigned applications through security groups
+- Reviewed authentication and session policies
+- Documented enterprise IAM administration
+
+### Identity Architecture
+
+```text
+Enterprise Users
+        ↓
+Department Groups
+        ↓
+Role-Based Access Control
+        ↓
+Okta Identity Cloud
+        ↓
+Enterprise Applications
+```
+
+### Key Skills
+
+- Okta Identity Cloud
+- Identity Provider (IdP)
+- Role-Based Access Control
+- Enterprise Application Integration
+- SaaS Identity Management
+- Authentication Policies
+- Enterprise Authentication
+- MFA Administration
+- Group-Based Application Assignment
+
 ## Project 09 – Hybrid Identity Planning & Architecture
 
 [View Project 09](Project%2009%20-%20Hybrid%20Identity%20Planning%20%26%20Architecture/README.md)
@@ -503,9 +551,9 @@ Microsoft Entra ID
         ↓
 Hybrid Identity
         ↓
-Enterprise Group Policy
-        ↓
 Okta Identity Cloud
+        ↓
+Enterprise Group Policy
         ↓
 DNS
         ↓
@@ -543,10 +591,10 @@ Identity Governance
 - Resultant Set of Policy (RSoP)
 - gpupdate
 - gpresult
-  
+- Okta Identity Cloud
+- 
 ## Planned
  
-- Okta Identity Cloud
 - DNS Administration
 - DHCP
 - PowerShell IAM automation
@@ -583,6 +631,14 @@ Identity Governance
 - Single Sign-On
 - SAML
 - SaaS Identity Management
+- Okta Identity Cloud
+- Identity Provider Administration
+- Enterprise Authentication
+- Authentication Policies
+- MFA Administration
+- Enterprise Application Integration
+- SaaS Identity Management
+- Group-Based Application Assignment
 
 ## Group Policy
 
@@ -749,6 +805,17 @@ CyberLab-Enterprise-Infrastructure/
 │   ├── Project_Timeline.md
 │   └── Screenshots/
 |
+Project 08 - Okta Identity Cloud/
+│   ├── README.md
+│   ├── Architecture.md
+│   ├── Deployment_Notes.md
+│   ├── Troubleshooting_Log.md
+│   ├── Skills_Demonstrated.md
+│   ├── Lessons_Learned.md
+│   ├── Future_Improvements.md
+│   ├── Project_Timeline.md
+│   └── Screenshots/
+|
 ├── Project 09 - Hybrid Identity Planning & Architecture/
 │   ├── README.md
 │   ├── Architecture.md
@@ -759,7 +826,7 @@ CyberLab-Enterprise-Infrastructure/
 │   ├── Future_Improvements.md
 │   ├── Project_Timeline.md
 │   └── Screenshots/
-
+|
 ├── Project 10 - Enterprise Group Policy Administration/
 │   ├── README.md
 │   ├── Architecture.md
@@ -776,13 +843,10 @@ CyberLab-Enterprise-Infrastructure/
  
 # Current Focus
  
-The current focus is expanding CyberLab into multi-platform Identity & Access Management by adding Okta Identity Cloud while continuing to build enterprise Windows infrastructure, cloud identity, and security automation skills.
+The current focus is expanding CyberLab through enterprise infrastructure services, including DNS, DHCP, PowerShell IAM automation, and Identity Governance, while continuing to strengthen enterprise identity and access management skills.
 
 Planned next steps include:
 
-- Deploy Okta Identity Cloud
-- Build Hybrid Identity
-- Configure Group Policy
 - Configure DNS
 - Configure DHCP
 - Automate identity administration with PowerShell
@@ -792,7 +856,6 @@ Planned next steps include:
  
 | Project | Focus |
 |---|---|
-| Project 08 | Okta Identity Cloud |
 | Project 11 | DNS Administration |
 | Project 12 | DHCP Administration |
 | Project 13 | PowerShell IAM Administration |
