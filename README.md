@@ -1,16 +1,16 @@
 # CyberLab Enterprise Infrastructure
  
-> **Enterprise Windows Server, Active Directory, Identity & Access Management, and Authorization Portfolio**
+> **Enterprise Windows Server, Active Directory, Microsoft Entra ID, Okta Identity Cloud, Identity & Access Management, and Enterprise Infrastructure Portfolio**
  
 ![Windows Server](https://img.shields.io/badge/Windows_Server-2022-0078D4)
 ![Active Directory](https://img.shields.io/badge/Active_Directory-Enterprise-0078D4)
 ![IAM](https://img.shields.io/badge/Identity_%26_Access_Management-Portfolio-2E8B57)
 ![Security](https://img.shields.io/badge/Security%2B-Certified-red)
 ![Linux](https://img.shields.io/badge/LPI_Linux_Essentials-Certified-FCC624)
-![Projects](https://img.shields.io/badge/Projects-10%20Completed-success)
+![Projects](https://img.shields.io/badge/Projects-11%20Completed-success)
  ## Environment Status
 
-✅ 10 Enterprise Infrastructure Projects Completed
+✅ 11 Enterprise Infrastructure Projects Completed
 
 ### Infrastructure
 
@@ -28,7 +28,7 @@
 
 🔑 Identity & Access Management
 
-➡️ Next: DNS Administration
+➡️ Next: DHCP Administration
 ---
  
 ## Overview
@@ -37,7 +37,7 @@ CyberLab Enterprise Infrastructure is a hands-on technical portfolio designed to
  
 The environment documents the design, deployment, administration, security, and troubleshooting of a Microsoft Active Directory domain.
  
-The projects progress from foundational Windows Server deployment through enterprise identity administration, Joiner–Mover–Leaver operations, Role-Based Access Control (RBAC), AGDLP authorization, Windows 11 client validation, Microsoft Entra ID, Hybrid Identity planning, and enterprise Group Policy administration.
+The projects progress from foundational Windows Server deployment through enterprise identity administration, Joiner–Mover–Leaver operations, Role-Based Access Control (RBAC), AGDLP authorization, Windows 11 client validation, Microsoft Entra ID, Hybrid Identity planning, Okta Identity Cloud, Enterprise Group Policy administration, and Enterprise DNS Administration.
  
 This repository is designed to demonstrate practical skills through:
  
@@ -66,7 +66,7 @@ This repository is designed to demonstrate practical skills through:
 | ✅ | Project 08 – Okta Identity Cloud Administration |
 | ✅ | Project 09 – Hybrid Identity Planning & Architecture |
 | ✅ | Project 10 – Enterprise Group Policy Administration |
-| ⏳ | Project 11 – DNS Administration |
+| ✅ | Project 11 – Enterprise DNS Administration |
 | ⏳ | Project 12 – DHCP Administration |
 | ⏳ | Project 13 – PowerShell IAM Administration |
 | ⏳ | Project 14 – Identity Governance & Conditional Access |
@@ -535,6 +535,42 @@ Designed, deployed, validated, and troubleshot enterprise Group Policy Objects t
 - gpresult
 - RSoP
 - Enterprise troubleshooting
+
+## Project 11 – Enterprise DNS Administration
+
+[View Project 11](Project%2011%20-%20Enterprise%20DNS%20Administration/README.md)
+
+Designed, deployed, validated, and troubleshot Microsoft DNS in an enterprise Active Directory environment.
+
+### Work Completed
+
+- Verified Active Directory-integrated DNS
+- Reviewed Forward Lookup Zones
+- Created a Reverse Lookup Zone
+- Configured Secure Dynamic DNS Updates
+- Registered PTR records
+- Validated Forward and Reverse DNS Resolution
+- Reviewed SRV Records
+- Reviewed SOA and NS Records
+- Tested DNS using nslookup
+- Validated DNS using Resolve-DnsName
+- Verified DNS health using dcdiag
+- Validated Windows 11 client name resolution
+
+### DNS Architecture
+
+```text
+Windows 11 Client
+        ↓
+Microsoft DNS
+        ↓
+Forward Lookup Zone
+        ↓
+Reverse Lookup Zone
+        ↓
+Active Directory
+        ↓
+LDAP / Kerberos / Group Policy
  
 # Enterprise Architecture Progression
  
@@ -561,15 +597,37 @@ Okta Identity Cloud
         ↓
 Enterprise Group Policy
         ↓
-DNS
+Enterprise DNS
         ↓
-DHCP
+Enterprise DHCP
         ↓
 PowerShell Automation
-        ↓
-Identity Governance
 ```
- 
+
+ ### Key Skills
+
+- Microsoft DNS
+- Active Directory Integrated DNS
+- Forward Lookup Zones
+- Reverse Lookup Zones
+- Dynamic DNS
+- Secure Dynamic Updates
+- A Records
+- PTR Records
+- NS Records
+- SOA Records
+- SRV Records
+- Resolve-DnsName
+- nslookup
+- dcdiag
+- DNS Troubleshooting
+- Dynamic DNS Registration
+- DNS Validation
+- Active Directory Service Discovery
+- LDAP
+- Kerberos
+- Global Catalog
+- Microsoft DNS Diagnostics
 ---
  
 # Enterprise Technologies
@@ -598,10 +656,21 @@ Identity Governance
 - gpupdate
 - gpresult
 - Okta Identity Cloud
-- 
+- Microsoft DNS
+- Active Directory Integrated DNS
+- Forward Lookup Zones
+- Reverse Lookup Zones
+- Dynamic DNS
+- Secure Dynamic Updates
+- DNS Troubleshooting
+- Resolve-DnsName
+- nslookup
+- PTR Records
+- SRV Records
+- DNS Health Validation
+  
 ## Planned
  
-- DNS Administration
 - DHCP
 - PowerShell IAM automation
 - Conditional Access
@@ -645,6 +714,10 @@ Identity Governance
 - Enterprise Application Integration
 - SaaS Identity Management
 - Group-Based Application Assignment
+- Secure Dynamic DNS Registration
+- Reverse DNS Validation
+- Forward DNS Validation
+- Enterprise DNS Diagnostics
 
 ## Group Policy
 
@@ -683,6 +756,29 @@ Identity Governance
 - Access-control list administration
 - Windows 11 Enterprise deployment
 - Domain-joined client administration
+
+## DNS Administration
+
+- Microsoft DNS
+- Active Directory Integrated DNS
+- Forward Lookup Zones
+- Reverse Lookup Zones
+- Secure Dynamic Updates
+- Dynamic DNS Registration
+- A Records
+- PTR Records
+- SOA Records
+- NS Records
+- SRV Records
+- Resolve-DnsName
+- nslookup
+- ipconfig /registerdns
+- ipconfig /flushdns
+- ipconfig /displaydns
+- dcdiag /test:dns
+- DNS Troubleshooting
+- Client Name Resolution
+  
 ## Networking
  
 - IPv4
@@ -693,6 +789,7 @@ Identity Governance
 - Gateway configuration
 - Connectivity troubleshooting
 - Name-resolution troubleshooting
+
 ## Security
  
 - Principle of Least Privilege
@@ -706,6 +803,7 @@ Identity Governance
 - Permission-inheritance management
 - Access Denied validation
 - Audit-ready technical documentation
+
 ## Documentation
  
 - Architecture documentation
@@ -843,26 +941,38 @@ Project 08 - Okta Identity Cloud/
 │   ├── Future_Improvements.md
 │   ├── Project_Timeline.md
 │   └── Screenshots/
+|
+|
+├── Project 11 - Enterprise DNS Administration/
+│   ├── README.md
+│   ├── Architecture.md
+│   ├── Deployment_Notes.md
+│   ├── Troubleshooting_Log.md
+│   ├── Skills_Demonstrated.md
+│   ├── Lessons_Learned.md
+│   ├── Future_Improvements.md
+│   ├── Project_Timeline.md
+│   └── Screenshots/
 ```
  
 ---
  
 # Current Focus
  
-The current focus is expanding CyberLab through enterprise infrastructure services, including DNS, DHCP, PowerShell IAM automation, and Identity Governance, while continuing to strengthen enterprise identity and access management skills.
+The current focus is completing the remaining enterprise infrastructure projects, including DHCP, PowerShell IAM Automation, Identity Governance, and Enterprise IT Operations, while continuing to expand the Enterprise IAM Operations repository with realistic ServiceNow-style operational workflows.
 
 Planned next steps include:
 
-- Configure DNS
 - Configure DHCP
 - Automate identity administration with PowerShell
+- Implement Identity Governance
+- Build Enterprise IT Operations
 ---
  
 # Roadmap
  
 | Project | Focus |
 |---|---|
-| Project 11 | DNS Administration |
 | Project 12 | DHCP Administration |
 | Project 13 | PowerShell IAM Administration |
 | Project 14 | Identity Governance & Conditional Access |
@@ -915,6 +1025,8 @@ This portfolio is being developed to demonstrate practical experience with:
 - Python and API automation
 - Conditional Access
 - Identity Governance
+- Okta Identity Cloud
+- Enterprise DNS Administration
 ---
  
 # Author
