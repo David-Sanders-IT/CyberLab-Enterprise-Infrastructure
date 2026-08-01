@@ -7,10 +7,10 @@
 ![IAM](https://img.shields.io/badge/Identity_%26_Access_Management-Portfolio-2E8B57)
 ![Security](https://img.shields.io/badge/Security%2B-Certified-red)
 ![Linux](https://img.shields.io/badge/LPI_Linux_Essentials-Certified-FCC624)
-![Projects](https://img.shields.io/badge/Projects-11%20Completed-success)
+![Projects](https://img.shields.io/badge/Projects-12%20Completed-success)
  ## Environment Status
 
-✅ 11 Enterprise Infrastructure Projects Completed
+✅ 12 Enterprise Infrastructure Projects Completed
 
 ### Infrastructure
 
@@ -28,7 +28,7 @@
 
 🔑 Identity & Access Management
 
-➡️ Next: DHCP Administration
+➡️ Next: PowerShell IAM Administration
 ---
  
 ## Overview
@@ -67,7 +67,7 @@ This repository is designed to demonstrate practical skills through:
 | ✅ | Project 09 – Hybrid Identity Planning & Architecture |
 | ✅ | Project 10 – Enterprise Group Policy Administration |
 | ✅ | Project 11 – Enterprise DNS Administration |
-| ⏳ | Project 12 – DHCP Administration |
+| ✅ | Project 12 – Enterprise DHCP Administration |
 | ⏳ | Project 13 – PowerShell IAM Administration |
 | ⏳ | Project 14 – Identity Governance & Conditional Access |
 | ⏳ | Project 15 – Enterprise IT Operations & IAM Support |
@@ -601,7 +601,11 @@ Enterprise DNS
         ↓
 Enterprise DHCP
         ↓
-PowerShell Automation
+PowerShell IAM Administration
+        ↓
+Identity Governance
+        ↓
+Enterprise IT Operations
 ```
 
  ### Key Skills
@@ -629,7 +633,59 @@ PowerShell Automation
 - Global Catalog
 - Microsoft DNS Diagnostics
 ---
- 
+ ## Project 12 – Enterprise DHCP Administration
+
+[View Project 12](Project%2012%20-%20Enterprise%20DHCP%20Administration/README.md)
+
+Designed, deployed, validated, and troubleshot Microsoft DHCP within an enterprise Active Directory environment.
+
+### Work Completed
+
+- Installed the Microsoft DHCP Server role
+- Authorized the DHCP server in Active Directory
+- Created an enterprise IPv4 DHCP scope
+- Configured address pool and exclusion range
+- Configured DHCP reservations
+- Configured Router (Option 003)
+- Configured DNS Server (Option 006)
+- Configured DNS Domain Name (Option 015)
+- Verified automatic client lease assignment
+- Renewed DHCP leases
+- Reviewed DHCP statistics
+- Reviewed DHCP operational event logs
+- Validated Windows 11 client configuration
+
+### DHCP Architecture
+
+```text
+Windows 11 Client
+        ↓
+Microsoft DHCP Server
+        ↓
+DHCP Scope
+        ↓
+Address Pool
+Reservations
+Scope Options
+        ↓
+Automatic Client Configuration
+```
+
+### Key Skills
+
+- Microsoft DHCP
+- DHCP Scope Design
+- DHCP Authorization
+- Address Pools
+- Lease Management
+- Reservations
+- Scope Options
+- DHCP Statistics
+- DHCP Event Logs
+- ipconfig /release
+- ipconfig /renew
+- Enterprise DHCP Troubleshooting
+
 # Enterprise Technologies
  
 ## Current
@@ -668,10 +724,17 @@ PowerShell Automation
 - PTR Records
 - SRV Records
 - DNS Health Validation
+- Microsoft DHCP
+- DHCP Scope Configuration
+- Address Pools
+- Reservations
+- DHCP Scope Options
+- DHCP Authorization
+- Lease Management
+- DHCP Monitoring
   
 ## Planned
  
-- DHCP
 - PowerShell IAM automation
 - Conditional Access
 - Identity Governance
@@ -778,6 +841,24 @@ PowerShell Automation
 - dcdiag /test:dns
 - DNS Troubleshooting
 - Client Name Resolution
+
+## DHCP Administration
+
+- Microsoft DHCP
+- DHCP Scope Configuration
+- DHCP Authorization
+- Address Pools
+- Address Exclusions
+- DHCP Reservations
+- Lease Management
+- DHCP Scope Options
+- DHCP Statistics
+- DHCP Event Logs
+- Client IP Configuration
+- ipconfig /release
+- ipconfig /renew
+- ipconfig /all
+- Enterprise DHCP Troubleshooting
   
 ## Networking
  
@@ -953,17 +1034,27 @@ Project 08 - Okta Identity Cloud/
 │   ├── Future_Improvements.md
 │   ├── Project_Timeline.md
 │   └── Screenshots/
+|
+├── Project 12 - Enterprise DHCP Administration/
+│   ├── README.md
+│   ├── Architecture.md
+│   ├── Deployment_Notes.md
+│   ├── Troubleshooting_Log.md
+│   ├── Skills_Demonstrated.md
+│   ├── Lessons_Learned.md
+│   ├── Future_Improvements.md
+│   ├── Project_Timeline.md
+│   └── Screenshots/
 ```
  
 ---
  
 # Current Focus
  
-The current focus is completing the remaining enterprise infrastructure projects, including DHCP, PowerShell IAM Automation, Identity Governance, and Enterprise IT Operations, while continuing to expand the Enterprise IAM Operations repository with realistic ServiceNow-style operational workflows.
+The current focus is completing the remaining enterprise infrastructure projects, including PowerShell IAM Automation, Identity Governance, and Enterprise IT Operations, while continuing to expand the Enterprise IAM Operations repository with realistic ServiceNow-style operational workflows.
 
 Planned next steps include:
 
-- Configure DHCP
 - Automate identity administration with PowerShell
 - Implement Identity Governance
 - Build Enterprise IT Operations
@@ -973,7 +1064,6 @@ Planned next steps include:
  
 | Project | Focus |
 |---|---|
-| Project 12 | DHCP Administration |
 | Project 13 | PowerShell IAM Administration |
 | Project 14 | Identity Governance & Conditional Access |
 | Project 15 | Enterprise IT Operations & IAM Support |
@@ -995,7 +1085,8 @@ The completed environment will include:
 - SMB and NTFS resource security
 - Windows client administration
 - Group Policy
-- DNS and DHCP
+- Enterprise DNS Administration
+- Enterprise DHCP Administration
 - PowerShell automation
 - Microsoft Entra ID
 - Okta
