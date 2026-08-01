@@ -11,14 +11,18 @@
 
 ## Environment Status
 ✅ 13 Enterprise Infrastructure Projects Completed
+
 ### Infrastructure
 🖥️ Windows Server 2022
 🏢 Active Directory Domain Services
 💻 Windows 11 Enterprise
+
 ### Identity Platforms
+
 ☁️ Microsoft Entra ID
 🔐 Okta Identity Cloud
 🔑 Identity & Access Management
+
 ➡️ Next: Identity Governance & Conditional Access
 ---
 
